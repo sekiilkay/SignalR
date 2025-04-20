@@ -1,0 +1,12 @@
+C:\Users\sekii\OneDrive\Masaüstü\SignalR-master\SignalR.Core\bin\Debug\net9.0\SignalR.Core.deps.json
+C:\Users\sekii\OneDrive\Masaüstü\SignalR-master\SignalR.Core\bin\Debug\net9.0\SignalR.Core.dll
+C:\Users\sekii\OneDrive\Masaüstü\SignalR-master\SignalR.Core\bin\Debug\net9.0\SignalR.Core.pdb
+C:\Users\sekii\OneDrive\Masaüstü\SignalR-master\SignalR.Core\obj\Debug\net9.0\SignalR.Core.csproj.AssemblyReference.cache
+C:\Users\sekii\OneDrive\Masaüstü\SignalR-master\SignalR.Core\obj\Debug\net9.0\SignalR.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sekii\OneDrive\Masaüstü\SignalR-master\SignalR.Core\obj\Debug\net9.0\SignalR.Core.AssemblyInfoInputs.cache
+C:\Users\sekii\OneDrive\Masaüstü\SignalR-master\SignalR.Core\obj\Debug\net9.0\SignalR.Core.AssemblyInfo.cs
+C:\Users\sekii\OneDrive\Masaüstü\SignalR-master\SignalR.Core\obj\Debug\net9.0\SignalR.Core.csproj.CoreCompileInputs.cache
+C:\Users\sekii\OneDrive\Masaüstü\SignalR-master\SignalR.Core\obj\Debug\net9.0\SignalR.Core.dll
+C:\Users\sekii\OneDrive\Masaüstü\SignalR-master\SignalR.Core\obj\Debug\net9.0\refint\SignalR.Core.dll
+C:\Users\sekii\OneDrive\Masaüstü\SignalR-master\SignalR.Core\obj\Debug\net9.0\SignalR.Core.pdb
+C:\Users\sekii\OneDrive\Masaüstü\SignalR-master\SignalR.Core\obj\Debug\net9.0\ref\SignalR.Core.dll

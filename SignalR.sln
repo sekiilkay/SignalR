@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.WebApi", "SignalR.WebApi\SignalR.WebApi.csproj", "{80B56429-60BF-43F9-90F5-01E8993B6226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.WebUI", "SignalR.WebUI\SignalR.WebUI.csproj", "{D864EF9A-EAFE-4549-B30E-EE132C831404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.Core", "SignalR.Core\SignalR.Core.csproj", "{2FA6EDDC-3463-4D0B-86BC-BDC60BF3AA93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.Repository", "SignalR.Repository\SignalR.Repository.csproj", "{00DCAE47-9764-43C9-8327-E05D4B1EF500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.Service", "SignalR.Service\SignalR.Service.csproj", "{599A7EC2-145F-4232-8DC8-29DBE080307F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80B56429-60BF-43F9-90F5-01E8993B6226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80B56429-60BF-43F9-90F5-01E8993B6226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80B56429-60BF-43F9-90F5-01E8993B6226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80B56429-60BF-43F9-90F5-01E8993B6226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D864EF9A-EAFE-4549-B30E-EE132C831404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D864EF9A-EAFE-4549-B30E-EE132C831404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D864EF9A-EAFE-4549-B30E-EE132C831404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D864EF9A-EAFE-4549-B30E-EE132C831404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA6EDDC-3463-4D0B-86BC-BDC60BF3AA93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA6EDDC-3463-4D0B-86BC-BDC60BF3AA93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA6EDDC-3463-4D0B-86BC-BDC60BF3AA93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA6EDDC-3463-4D0B-86BC-BDC60BF3AA93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00DCAE47-9764-43C9-8327-E05D4B1EF500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DCAE47-9764-43C9-8327-E05D4B1EF500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DCAE47-9764-43C9-8327-E05D4B1EF500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DCAE47-9764-43C9-8327-E05D4B1EF500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{599A7EC2-145F-4232-8DC8-29DBE080307F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{599A7EC2-145F-4232-8DC8-29DBE080307F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{599A7EC2-145F-4232-8DC8-29DBE080307F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{599A7EC2-145F-4232-8DC8-29DBE080307F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

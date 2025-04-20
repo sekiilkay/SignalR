@@ -1,0 +1,53 @@
+﻿@model List<ResultProductDto>
+<section class="food_section layout_padding-bottom">
+    <div class="container">
+        <div class="heading_container heading_center">
+            <h2>
+                Öne Çıkan Ürünlerimiz
+            </h2>
+        </div>
+
+        <ul class="filters_menu">
+            <li class="active" data-filter="*">Tümü</li>
+            <li data-filter=".burger">Hamburger</li>
+            <li data-filter=".pizza">Pizza</li>
+            <li data-filter=".pasta">Makarna</li>
+            <li data-filter=".fries">Atıştırmalık</li>
+        </ul>
+
+        <div class="filters-content">
+            <div class="row grid">
+                @foreach (var item in Model)
+                {
+                    <div class="col-sm-6 col-lg-4 all @item.CategoryName">
+                        <div class="box">
+                            <div>
+                                <div class="img-box">
+                                    <img src="@item.ImageUrl" alt="">
+                                </div>
+                                <div class="detail-box">
+                                    <h5>
+                                        @item.Name
+                                    </h5>
+                                    <p>
+                                        @item.Description
+                                    </p>
+                                    <div class="options">
+                                        <h6>
+                                            @item.Price₺
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="btn-box">
+            <a href="/CustomerTable/CustomerTableList/">
+                Sipariş Verebilmek İçin Lütfen Tıklayınız
+            </a>
+        </div>
+    </div>
+</section>

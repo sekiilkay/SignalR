@@ -1,0 +1,1454 @@
+[
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.AboutsController",
+    "Method": "AboutList",
+    "RelativePath": "Abouts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.AboutsController",
+    "Method": "CreateAbout",
+    "RelativePath": "Abouts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.AboutDtos.CreateAboutDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.AboutsController",
+    "Method": "UpdateAbout",
+    "RelativePath": "Abouts",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.AboutDtos.UpdateAboutDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.AboutsController",
+    "Method": "GetAboutById",
+    "RelativePath": "Abouts/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.AboutsController",
+    "Method": "DeleteAbout",
+    "RelativePath": "Abouts/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.BasketsController",
+    "Method": "GetBasketByMenuTableId",
+    "RelativePath": "Baskets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.BasketsController",
+    "Method": "CreateBasket",
+    "RelativePath": "Baskets",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.BasketDtos.CreateBasketDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.BasketsController",
+    "Method": "DeleteBasket",
+    "RelativePath": "Baskets/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.BasketsController",
+    "Method": "BasketListByMenuTableWithProductName",
+    "RelativePath": "Baskets/BasketListByMenuTableWithProductName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.BasketsController",
+    "Method": "DeleteBasketByMenuTableId",
+    "RelativePath": "Baskets/DeleteBasketByMenuTableId/{menuTableId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "menuTableId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.BookingsController",
+    "Method": "BookingList",
+    "RelativePath": "Bookings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.BookingsController",
+    "Method": "CreateBooking",
+    "RelativePath": "Bookings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.BookingDtos.CreateBookingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.BookingsController",
+    "Method": "UpdateBooking",
+    "RelativePath": "Bookings",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.BookingDtos.UpdateBookingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.BookingsController",
+    "Method": "DeleteBooking",
+    "RelativePath": "Bookings/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.BookingsController",
+    "Method": "GetBooking",
+    "RelativePath": "Bookings/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.BookingsController",
+    "Method": "BookingCount",
+    "RelativePath": "Bookings/BookingCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.BookingsController",
+    "Method": "BookingStatusApproved",
+    "RelativePath": "Bookings/BookingStatusApproved/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.BookingsController",
+    "Method": "BookingStatusCancelled",
+    "RelativePath": "Bookings/BookingStatusCancelled/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.CategoriesController",
+    "Method": "CategoryList",
+    "RelativePath": "Categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.CategoriesController",
+    "Method": "CreateCategory",
+    "RelativePath": "Categories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.CategoryDtos.CreateCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.CategoriesController",
+    "Method": "UpdateCategory",
+    "RelativePath": "Categories",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.CategoryDtos.UpdateCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.CategoriesController",
+    "Method": "DeleteCategory",
+    "RelativePath": "Categories/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.CategoriesController",
+    "Method": "GetCateegory",
+    "RelativePath": "Categories/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.CategoriesController",
+    "Method": "ActiveCategoryCount",
+    "RelativePath": "Categories/ActiveCategoryCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.CategoriesController",
+    "Method": "CategoryCount",
+    "RelativePath": "Categories/CategoryCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.CategoriesController",
+    "Method": "ChangeStatusToFalse",
+    "RelativePath": "Categories/CategoryStatusChangeToFalse/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.CategoriesController",
+    "Method": "ChangeStatusToTrue",
+    "RelativePath": "Categories/CategoryStatusChangeToTrue/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.CategoriesController",
+    "Method": "PassiveCategoryCount",
+    "RelativePath": "Categories/PassiveCategoryCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ContactsController",
+    "Method": "ContactList",
+    "RelativePath": "Contacts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ContactsController",
+    "Method": "CreateContact",
+    "RelativePath": "Contacts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.ContactDtos.CreateContactDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ContactsController",
+    "Method": "UpdateContact",
+    "RelativePath": "Contacts",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.ContactDtos.UpdateContactDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ContactsController",
+    "Method": "GetContactById",
+    "RelativePath": "Contacts/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ContactsController",
+    "Method": "DeleteContact",
+    "RelativePath": "Contacts/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.DiscountsController",
+    "Method": "DiscountList",
+    "RelativePath": "Discounts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.DiscountsController",
+    "Method": "CreateDiscount",
+    "RelativePath": "Discounts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.DiscountDtos.CreateDiscountDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.DiscountsController",
+    "Method": "UpdateDiscount",
+    "RelativePath": "Discounts",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.DiscountDtos.UpdateDiscountDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.DiscountsController",
+    "Method": "DeleteDiscount",
+    "RelativePath": "Discounts/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.DiscountsController",
+    "Method": "GetDiscount",
+    "RelativePath": "Discounts/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.DiscountsController",
+    "Method": "ChangeStatusToFalse",
+    "RelativePath": "Discounts/ChangeStatusToFalse/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.DiscountsController",
+    "Method": "ChangeStatusToTrue",
+    "RelativePath": "Discounts/ChangeStatusToTrue/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.DiscountsController",
+    "Method": "GetListByStatusTrue",
+    "RelativePath": "Discounts/GetListByStatusTrue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.MenuTablesController",
+    "Method": "MenuTableList",
+    "RelativePath": "MenuTables",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.MenuTablesController",
+    "Method": "CreateMenuTable",
+    "RelativePath": "MenuTables",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.MenuTableDtos.CreateMenuTableDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.MenuTablesController",
+    "Method": "UpdateMenuTable",
+    "RelativePath": "MenuTables",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.MenuTableDtos.UpdateMenuTableDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.MenuTablesController",
+    "Method": "DeleteMenuTable",
+    "RelativePath": "MenuTables/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.MenuTablesController",
+    "Method": "GetMenuTable",
+    "RelativePath": "MenuTables/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.MenuTablesController",
+    "Method": "ChangeMenuTableStatusToFalse",
+    "RelativePath": "MenuTables/ChangeMenuTableStatusToFalse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.MenuTablesController",
+    "Method": "ChangeMenuTableStatusToTrue",
+    "RelativePath": "MenuTables/ChangeMenuTableStatusToTrue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.MenuTablesController",
+    "Method": "GetMenuTableByStatusFalse",
+    "RelativePath": "MenuTables/GetMenuTableByStatusFalse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.MenuTablesController",
+    "Method": "MenuTableCount",
+    "RelativePath": "MenuTables/MenuTableCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.MessagesController",
+    "Method": "MessageList",
+    "RelativePath": "Messages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.MessagesController",
+    "Method": "CreateMessage",
+    "RelativePath": "Messages",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.MessageDtos.CreateMessageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.MessagesController",
+    "Method": "UpdateMessage",
+    "RelativePath": "Messages",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.MessageDtos.UpdateMessageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.MessagesController",
+    "Method": "DeleteMessage",
+    "RelativePath": "Messages/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.MessagesController",
+    "Method": "GetMessage",
+    "RelativePath": "Messages/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.MoneyCasesController",
+    "Method": "TotalMoneyCaseAmount",
+    "RelativePath": "MoneyCases",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.MoneyCasesController",
+    "Method": "UpdateMoneyCaseAmount",
+    "RelativePath": "MoneyCases",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.MoneyCaseDtos.UpdateMoneyCaseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.MoneyCasesController",
+    "Method": "GetByIdMoneyCase",
+    "RelativePath": "MoneyCases/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.NotificationsController",
+    "Method": "NotificationList",
+    "RelativePath": "Notifications",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.NotificationsController",
+    "Method": "CreateNotification",
+    "RelativePath": "Notifications",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.NotificationDtos.CreateNotificationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.NotificationsController",
+    "Method": "UpdateNotification",
+    "RelativePath": "Notifications",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.NotificationDtos.UpdateNotificationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.NotificationsController",
+    "Method": "DeleteNotification",
+    "RelativePath": "Notifications/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.NotificationsController",
+    "Method": "GetNotification",
+    "RelativePath": "Notifications/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.NotificationsController",
+    "Method": "GetAllNotificationByFalse",
+    "RelativePath": "Notifications/GetAllNotificationByFalse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.NotificationsController",
+    "Method": "NotificationCountByStatusFalse",
+    "RelativePath": "Notifications/NotificationCountByStatusFalse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.NotificationsController",
+    "Method": "NotificationStatusChangeToFalse",
+    "RelativePath": "Notifications/NotificationStatusChangeToFalse/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.NotificationsController",
+    "Method": "NotificationStatusChangeToTrue",
+    "RelativePath": "Notifications/NotificationStatusChangeToTrue/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.OrdersController",
+    "Method": "ActiveOrderCount",
+    "RelativePath": "Orders/ActiveOrderCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.OrdersController",
+    "Method": "LastOrderPrice",
+    "RelativePath": "Orders/LastOrderPrice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.OrdersController",
+    "Method": "TodayTotalPrice",
+    "RelativePath": "Orders/TodayTotalPrice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.OrdersController",
+    "Method": "TotalOrderCount",
+    "RelativePath": "Orders/TotalOrderCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ProductsController",
+    "Method": "ProductList",
+    "RelativePath": "Products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ProductsController",
+    "Method": "CreateProduct",
+    "RelativePath": "Products",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.ProductDtos.CreateProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ProductsController",
+    "Method": "UpdateProduct",
+    "RelativePath": "Products",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.ProductDtos.UpdateProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ProductsController",
+    "Method": "DeleteProduct",
+    "RelativePath": "Products/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ProductsController",
+    "Method": "GetProduct",
+    "RelativePath": "Products/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ProductsController",
+    "Method": "GetLast9Products",
+    "RelativePath": "Products/GetLast9Products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ProductsController",
+    "Method": "ProductAvgPriceByHamburger",
+    "RelativePath": "Products/ProductAvgPriceByHamburger",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ProductsController",
+    "Method": "ProductCount",
+    "RelativePath": "Products/ProductCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ProductsController",
+    "Method": "ProductCountByDrink",
+    "RelativePath": "Products/ProductCountByDrink",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ProductsController",
+    "Method": "ProductCountByHamburger",
+    "RelativePath": "Products/ProductCountByHamburger",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ProductsController",
+    "Method": "ProductListWithCategory",
+    "RelativePath": "Products/ProductListWithCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ProductsController",
+    "Method": "ProductNameByMaxPrice",
+    "RelativePath": "Products/ProductNameByMaxPrice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ProductsController",
+    "Method": "ProductNameByMinPrice",
+    "RelativePath": "Products/ProductNameByMinPrice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ProductsController",
+    "Method": "ProductPriceAvg",
+    "RelativePath": "Products/ProductPriceAvg",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ProductsController",
+    "Method": "ProductPriceBySteakBurger",
+    "RelativePath": "Products/ProductPriceBySteakBurger",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ProductsController",
+    "Method": "ChangeStatusToFalse",
+    "RelativePath": "Products/ProductStatusChangeToFalse/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ProductsController",
+    "Method": "ChangeStatusToTrue",
+    "RelativePath": "Products/ProductStatusChangeToTrue/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ProductsController",
+    "Method": "TotalPriceByDrinkCategory",
+    "RelativePath": "Products/TotalPriceByDrinkCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.ProductsController",
+    "Method": "TotalPriceBySaladCategory",
+    "RelativePath": "Products/TotalPriceBySaladCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.SlidersController",
+    "Method": "SliderList",
+    "RelativePath": "Sliders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.SlidersController",
+    "Method": "CreateSlider",
+    "RelativePath": "Sliders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.SliderDtos.CreateSliderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.SlidersController",
+    "Method": "UpdateSlider",
+    "RelativePath": "Sliders",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.SliderDtos.UpdateSliderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.SlidersController",
+    "Method": "DeleteSlider",
+    "RelativePath": "Sliders/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.SlidersController",
+    "Method": "GetSlider",
+    "RelativePath": "Sliders/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.SocialMediasController",
+    "Method": "SocialMediaList",
+    "RelativePath": "SocialMedias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.SocialMediasController",
+    "Method": "CreateSocialMedia",
+    "RelativePath": "SocialMedias",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.SocialMediaDtos.CreateSocialMediaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.SocialMediasController",
+    "Method": "UpdateSocialMedia",
+    "RelativePath": "SocialMedias",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.SocialMediaDtos.UpdateSocialMediaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.SocialMediasController",
+    "Method": "DeleteSocialMedia",
+    "RelativePath": "SocialMedias/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.SocialMediasController",
+    "Method": "GetSocialMedia",
+    "RelativePath": "SocialMedias/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.TestimonialsController",
+    "Method": "TestimonialList",
+    "RelativePath": "Testimonials",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.TestimonialsController",
+    "Method": "CreateTestimonial",
+    "RelativePath": "Testimonials",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.TestimonialDtos.CreateTestimonialDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.TestimonialsController",
+    "Method": "UpdateTestimonial",
+    "RelativePath": "Testimonials",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SignalR.Core.DTOs.TestimonialDtos.UpdateTestimonialDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.TestimonialsController",
+    "Method": "DeleteTestimonial",
+    "RelativePath": "Testimonials/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalR.WebApi.Controllers.TestimonialsController",
+    "Method": "GetTestimonial",
+    "RelativePath": "Testimonials/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
