@@ -10,6 +10,7 @@ using System.Text;
 
 namespace SignalR.WebUI.Controllers
 {
+    [AllowAnonymous]
     public class MenuController(IHttpClientFactory httpClientFactory) : Controller
     {
         public async Task<IActionResult> Index(int id)
