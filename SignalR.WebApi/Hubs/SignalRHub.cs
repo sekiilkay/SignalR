@@ -7,16 +7,14 @@ namespace SignalR.WebApi.Hubs
     {
         private readonly ICategoryService _categoryService;
         private readonly IProductService _productService;
-        private readonly IOrderService _orderService;
         private readonly IMoneyCaseService _moneyCaseService;
         private readonly IMenuTableService _menuTableService;
         private readonly IBookingService _bookingService;
         private readonly INotificationService _notificationService;
-        public SignalRHub(ICategoryService categoryService, IProductService productService, IOrderService orderService, IMoneyCaseService moneyCaseService, IMenuTableService menuTableService, IBookingService bookingService, INotificationService notificationService)
+        public SignalRHub(ICategoryService categoryService, IProductService productService, IMoneyCaseService moneyCaseService, IMenuTableService menuTableService, IBookingService bookingService, INotificationService notificationService)
         {
             _categoryService = categoryService;
             _productService = productService;
-            _orderService = orderService;
             _moneyCaseService = moneyCaseService;
             _menuTableService = menuTableService;
             _bookingService = bookingService;
@@ -55,15 +53,6 @@ namespace SignalR.WebApi.Hubs
 
             var value10 = await _productService.ProductAvgPriceByHamburgerAsync();
             await Clients.All.SendAsync("ReceiveProductAvgPriceByHamburger", value10.ToString("0.00") + "₺");
-
-            var value11 = await _orderService.TotalOrderCountAsync();
-            await Clients.All.SendAsync("ReceiveTotalOrderCount", value11);
-
-            var value12 = await _orderService.ActiveOrderCountAsync();
-            await Clients.All.SendAsync("ReceiveActiveOrderCount", value12);
-
-            var value13 = await _orderService.LastOrderPriceAsync();
-            await Clients.All.SendAsync("ReceiveLastOrderPrice", value13.ToString("0.00") + "₺");
 
             var value14 = await _moneyCaseService.TotalMoneyCaseAmountAsync();
             await Clients.All.SendAsync("ReceiveTotalMoneyCaseAmount", value14.ToString("0.00") + "₺");

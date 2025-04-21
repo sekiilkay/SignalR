@@ -428,43 +428,6 @@ namespace SignalR.Repository.Migrations
                     b.ToTable("Discounts");
                 });
 
-            modelBuilder.Entity("SignalR.Core.Entities.Feature", b =>
-                {
-                    b.Property<int>("FeatureId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("FeatureId"));
-
-                    b.Property<string>("Description1")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Description2")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Description3")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Title1")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Title2")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Title3")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("FeatureId");
-
-                    b.ToTable("Features");
-                });
-
             modelBuilder.Entity("SignalR.Core.Entities.MenuTable", b =>
                 {
                     b.Property<int>("MenuTableId")
@@ -569,65 +532,6 @@ namespace SignalR.Repository.Migrations
                     b.HasKey("NotificationId");
 
                     b.ToTable("Notifications");
-                });
-
-            modelBuilder.Entity("SignalR.Core.Entities.Order", b =>
-                {
-                    b.Property<int>("OrderId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderId"));
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("OrderDate")
-                        .HasColumnType("Date");
-
-                    b.Property<string>("TableNumber")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("TotalPrice")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("OrderId");
-
-                    b.ToTable("Orders");
-                });
-
-            modelBuilder.Entity("SignalR.Core.Entities.OrderDetail", b =>
-                {
-                    b.Property<int>("OrderDetailId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderDetailId"));
-
-                    b.Property<int>("Count")
-                        .HasColumnType("int");
-
-                    b.Property<int>("OrderId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<decimal>("TotalPrice")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<decimal>("UnitPrice")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("OrderDetailId");
-
-                    b.HasIndex("OrderId");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("OrderDetails");
                 });
 
             modelBuilder.Entity("SignalR.Core.Entities.Product", b =>
@@ -830,25 +734,6 @@ namespace SignalR.Repository.Migrations
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("SignalR.Core.Entities.OrderDetail", b =>
-                {
-                    b.HasOne("SignalR.Core.Entities.Order", "Order")
-                        .WithMany("OrderDetails")
-                        .HasForeignKey("OrderId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("SignalR.Core.Entities.Product", "Product")
-                        .WithMany("OrderDetails")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Order");
-
-                    b.Navigation("Product");
-                });
-
             modelBuilder.Entity("SignalR.Core.Entities.Product", b =>
                 {
                     b.HasOne("SignalR.Core.Entities.Category", "Category")
@@ -870,16 +755,9 @@ namespace SignalR.Repository.Migrations
                     b.Navigation("Baskets");
                 });
 
-            modelBuilder.Entity("SignalR.Core.Entities.Order", b =>
-                {
-                    b.Navigation("OrderDetails");
-                });
-
             modelBuilder.Entity("SignalR.Core.Entities.Product", b =>
                 {
                     b.Navigation("Baskets");
-
-                    b.Navigation("OrderDetails");
                 });
 #pragma warning restore 612, 618
         }

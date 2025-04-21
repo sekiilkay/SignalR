@@ -15,13 +15,10 @@ namespace SignalR.Service.Extensions
             services.AddAutoMapper(typeof(CategoryMapping));
             services.AddAutoMapper(typeof(ContactMapping));
             services.AddAutoMapper(typeof(DiscountMapping));
-            services.AddAutoMapper(typeof(FeatureMapping));
             services.AddAutoMapper(typeof(MenuTableMapping));
             services.AddAutoMapper(typeof(MessageMapping));
             services.AddAutoMapper(typeof(MoneyCaseMapping));
             services.AddAutoMapper(typeof(NotificationMapping));
-            services.AddAutoMapper(typeof(OrderDetailMapping));
-            services.AddAutoMapper(typeof(OrderMapping));
             services.AddAutoMapper(typeof(ProductMapping));
             services.AddAutoMapper(typeof(SliderMapping));
             services.AddAutoMapper(typeof(SocialMediaMapping));
@@ -33,14 +30,11 @@ namespace SignalR.Service.Extensions
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IContactService, ContactService>();
             services.AddScoped<IDiscountService, DiscountService>();
-            services.AddScoped<IFeatureService, FeatureService>();
             services.AddScoped<IMenuTableService, MenuTableService>();
             services.AddScoped<IMessageService, MessageService>();
             services.AddScoped<IMoneyCaseService, MoneyCaseService>();
             services.AddScoped<INotificationService, NotificationService>();
             services.AddScoped<IProductService, ProductService>();
-            services.AddScoped<IOrderDetailService, OrderDetailService>();
-            services.AddScoped<IOrderService, OrderService>();
             services.AddScoped<ISliderService, SliderService>();
             services.AddScoped<ISocialMediaService, SocialMediaService>();
             services.AddScoped<ITestimonialService, TestimonialService>();

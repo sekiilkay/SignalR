@@ -964,46 +964,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SignalR.WebApi.Controllers.OrdersController",
-    "Method": "ActiveOrderCount",
-    "RelativePath": "Orders/ActiveOrderCount",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SignalR.WebApi.Controllers.OrdersController",
-    "Method": "LastOrderPrice",
-    "RelativePath": "Orders/LastOrderPrice",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SignalR.WebApi.Controllers.OrdersController",
-    "Method": "TodayTotalPrice",
-    "RelativePath": "Orders/TodayTotalPrice",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SignalR.WebApi.Controllers.OrdersController",
-    "Method": "TotalOrderCount",
-    "RelativePath": "Orders/TotalOrderCount",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "SignalR.WebApi.Controllers.ProductsController",
     "Method": "ProductList",
     "RelativePath": "Products",

@@ -20,13 +20,10 @@ namespace SignalR.Repository.Extensions
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IContactRepository, ContactRepository>();
             services.AddScoped<IDiscountRepository, DiscountRepository>();
-            services.AddScoped<IFeatureRepository, FeatureRepository>();
             services.AddScoped<IMenuTableRepository, MenuTableRepository>();
             services.AddScoped<IMoneyCaseRepository, MoneyCaseRepository>();
             services.AddScoped<IMessageRepository, MessageRepository>();
             services.AddScoped<INotificationRepository, NotificationRepository>();
-            services.AddScoped<IOrderRepository, OrderRepository>();
-            services.AddScoped<IOrderDetailRepository, OrderDetailRepository>();
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<ISliderRepository, SliderRepository>();
             services.AddScoped<ISocialMediaRepository, SocialMediaRepository>();

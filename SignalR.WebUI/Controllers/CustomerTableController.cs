@@ -1,12 +1,10 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using SignalR.WebUI.Dtos.MenuTableDtos;
 using System.Net.Http;
 
 namespace SignalR.WebUI.Controllers
 {
-    [AllowAnonymous]
     public class CustomerTableController(IHttpClientFactory httpClientFactory) : Controller
     {
         public async Task<IActionResult> CustomerTableList()
